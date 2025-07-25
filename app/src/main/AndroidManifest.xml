@@ -12,13 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineMultiCountdown">
         <activity
-            android:name=".MainActivity"
+            android:name=".controller.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.HostActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".controller.JoinActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".controller.PlayActivity"
+            android:exported="false">
         </activity>
     </application>
 
